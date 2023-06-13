@@ -3,6 +3,7 @@ const sgMail = require('@sendgrid/mail');
 const bodyParser = require('body-parser');
 
 console.log("Print Something");
+console.log("Print Something");
 
 const app = express();
 
