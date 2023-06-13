@@ -2,6 +2,8 @@ const express = require('express')
 const sgMail = require('@sendgrid/mail');
 const bodyParser = require('body-parser');
 
+console.log("Print Something");
+
 const app = express();
 
 app.use(bodyParser.urlencoded({
